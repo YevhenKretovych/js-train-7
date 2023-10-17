@@ -195,7 +195,7 @@ let myObject = {
   next() {
     if (this.currentIndex < this.category.length) {
       let value = this.category[this.currentIndex].name;
-      this.currrentIndex++;
+      this.currentIndex++;
 
       return { value: value, done: false };
     } else if (this.currentIndex >= this.category.length) {
